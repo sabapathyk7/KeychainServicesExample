@@ -11,6 +11,11 @@ This iOS app demonstrates the usage of Keychain services for secure storage and 
 - **Update Password:** update existing passwords in the Keychain.
 - **Delete Password:** remove passwords from the Keychain.
 
+
+## Animated Gif
+
+![Simulator Screen Recording - iPhone 15 Pro - 2024-01-10 at 00 06 12](https://github.com/sabapathyk7/KeychainServicesExample/assets/40764138/2fb8fe2c-82dd-4eff-9691-021d630a012f)
+
 ## Installation
 
 1. Clone the repository:

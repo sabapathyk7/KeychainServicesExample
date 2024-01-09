@@ -19,8 +19,8 @@ This iOS app demonstrates the usage of Keychain services for secure storage and 
    git clone https://github.com/sabapathyk7/KeychainServicesExample.git
 2. Open the Xcode project:
      ```bash
-    cd your-repo
-    open YourApp.xcodeproj
+    cd KeychainServicesExample
+    open KeychainServicesExample.xcodeproj
 3. Build and run the app on a simulator or physical device.
 
 

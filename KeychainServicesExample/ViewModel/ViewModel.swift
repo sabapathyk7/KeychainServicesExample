@@ -15,11 +15,16 @@ final class ViewModel: ObservableObject {
     init(keychainService: KeyChainServiceable = KeychainServices()) {
         self.keychainService = keychainService
     }
+    private func resetValues() {
+        keychainError = ""
+        passwordValue = ""
+    }
 }
 
 extension ViewModel {
     func fetchPassword(userName: String) {
         let keychainServices = KeychainServices()
+        resetValues()
         do {
             let password = try keychainServices.searchPasswordFor(username: userName)
             passwordValue =  password
@@ -32,6 +37,7 @@ extension ViewModel {
     }
     func saveUpdatePassword(username: String, password: String) {
         let keychainServices = KeychainServices()
+        resetValues()
         do {
             try keychainServices.storePassword(username: username, password: password)
             passwordValue = password
@@ -43,6 +49,7 @@ extension ViewModel {
     }
     func deletePassword(username: String) {
         let keychainServices = KeychainServices()
+        resetValues()
         do {
             try keychainServices.deletePasswordFor(username: username)
             passwordValue = username

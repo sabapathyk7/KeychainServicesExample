@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A203CC4B2B4D5D6B00F82AB1 /* KeychainServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203CC4A2B4D5D6B00F82AB1 /* KeychainServices.swift */; };
+		A203CC4D2B4D6A7B00F82AB1 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203CC4C2B4D6A7B00F82AB1 /* KeychainError.swift */; };
+		A203CC512B4D6CA600F82AB1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203CC502B4D6CA600F82AB1 /* ViewModel.swift */; };
+		A25B28FD2B4D781B00D6785A /* SaveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B28FC2B4D781B00D6785A /* SaveDataView.swift */; };
+		A25B28FF2B4D78E300D6785A /* GetDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B28FE2B4D78E300D6785A /* GetDataView.swift */; };
+		A25B29012B4D78FE00D6785A /* UpdateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B29002B4D78FE00D6785A /* UpdateDataView.swift */; };
+		A25B29032B4D791700D6785A /* DeleteDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B29022B4D791700D6785A /* DeleteDataView.swift */; };
+		A25B290B2B4D798500D6785A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B290A2B4D798500D6785A /* Constants.swift */; };
 		A2A62F102B4D5C91008B4C1F /* KeychainServicesExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A62F0F2B4D5C91008B4C1F /* KeychainServicesExampleApp.swift */; };
 		A2A62F122B4D5C91008B4C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A62F112B4D5C91008B4C1F /* ContentView.swift */; };
 		A2A62F142B4D5C93008B4C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A62F132B4D5C93008B4C1F /* Assets.xcassets */; };
 		A2A62F172B4D5C93008B4C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A62F162B4D5C93008B4C1F /* Preview Assets.xcassets */; };
+		A2EED16E2B4DB11000088B27 /* TextFieldFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EED16D2B4DB11000088B27 /* TextFieldFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A203CC4A2B4D5D6B00F82AB1 /* KeychainServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServices.swift; sourceTree = "<group>"; };
+		A203CC4C2B4D6A7B00F82AB1 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
+		A203CC502B4D6CA600F82AB1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A25B28FC2B4D781B00D6785A /* SaveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDataView.swift; sourceTree = "<group>"; };
+		A25B28FE2B4D78E300D6785A /* GetDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataView.swift; sourceTree = "<group>"; };
+		A25B29002B4D78FE00D6785A /* UpdateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataView.swift; sourceTree = "<group>"; };
+		A25B29022B4D791700D6785A /* DeleteDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDataView.swift; sourceTree = "<group>"; };
+		A25B290A2B4D798500D6785A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A2A62F0C2B4D5C91008B4C1F /* KeychainServicesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainServicesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A62F0F2B4D5C91008B4C1F /* KeychainServicesExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServicesExampleApp.swift; sourceTree = "<group>"; };
 		A2A62F112B4D5C91008B4C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2A62F132B4D5C93008B4C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A62F162B4D5C93008B4C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2EED16D2B4DB11000088B27 /* TextFieldFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25B29042B4D792800D6785A /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A25B28FC2B4D781B00D6785A /* SaveDataView.swift */,
+				A25B29022B4D791700D6785A /* DeleteDataView.swift */,
+				A25B29002B4D78FE00D6785A /* UpdateDataView.swift */,
+				A25B28FE2B4D78E300D6785A /* GetDataView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A25B29052B4D793700D6785A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A2A62F0F2B4D5C91008B4C1F /* KeychainServicesExampleApp.swift */,
+				A2A62F112B4D5C91008B4C1F /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A25B29062B4D794900D6785A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A203CC502B4D6CA600F82AB1 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A25B29072B4D795000D6785A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A203CC4A2B4D5D6B00F82AB1 /* KeychainServices.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A25B29082B4D795900D6785A /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				A203CC4C2B4D6A7B00F82AB1 /* KeychainError.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		A25B29092B4D797600D6785A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A25B290A2B4D798500D6785A /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		A2A62F032B4D5C91008B4C1F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +121,13 @@
 		A2A62F0E2B4D5C91008B4C1F /* KeychainServicesExample */ = {
 			isa = PBXGroup;
 			children = (
-				A2A62F0F2B4D5C91008B4C1F /* KeychainServicesExampleApp.swift */,
-				A2A62F112B4D5C91008B4C1F /* ContentView.swift */,
+				A25B29052B4D793700D6785A /* MainView */,
+				A25B29042B4D792800D6785A /* SubViews */,
+				A25B29072B4D795000D6785A /* Model */,
+				A25B29062B4D794900D6785A /* ViewModel */,
+				A25B29082B4D795900D6785A /* ErrorHandling */,
+				A25B29092B4D797600D6785A /* Utility */,
+				A2EED16F2B4DB11900088B27 /* ViewModifier */,
 				A2A62F132B4D5C93008B4C1F /* Assets.xcassets */,
 				A2A62F152B4D5C93008B4C1F /* Preview Content */,
 			);
@@ -65,6 +140,14 @@
 				A2A62F162B4D5C93008B4C1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2EED16F2B4DB11900088B27 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED16D2B4DB11000088B27 /* TextFieldFieldModifier.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A203CC512B4D6CA600F82AB1 /* ViewModel.swift in Sources */,
+				A203CC4D2B4D6A7B00F82AB1 /* KeychainError.swift in Sources */,
+				A25B28FF2B4D78E300D6785A /* GetDataView.swift in Sources */,
 				A2A62F122B4D5C91008B4C1F /* ContentView.swift in Sources */,
+				A25B29032B4D791700D6785A /* DeleteDataView.swift in Sources */,
+				A25B290B2B4D798500D6785A /* Constants.swift in Sources */,
+				A203CC4B2B4D5D6B00F82AB1 /* KeychainServices.swift in Sources */,
 				A2A62F102B4D5C91008B4C1F /* KeychainServicesExampleApp.swift in Sources */,
+				A25B28FD2B4D781B00D6785A /* SaveDataView.swift in Sources */,
+				A2EED16E2B4DB11000088B27 /* TextFieldFieldModifier.swift in Sources */,
+				A25B29012B4D78FE00D6785A /* UpdateDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
